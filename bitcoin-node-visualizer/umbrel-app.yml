@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: bitcoin-node-visualizer
+category: bitcoin
+name: Bitcoin Node Visualizer
+version: "1.0.0"
+tagline: Real-time 3D globe visualization of your Bitcoin full node
+description: >-
+  Visualize your Bitcoin Core full node activity on an interactive 3D globe.
+  Watch blocks and transactions arrive in real time, see peer connections
+  as arcs spanning the earth, and follow the step-by-step verification
+  process your node performs. Supports ZMQ push events with automatic
+  RPC polling fallback. Features include mempool monitoring, peer
+  geolocation, block verification state machine animation, and
+  node identity proof display.
+developer: AsadoConKimchi
+website: https://github.com/AsadoConKimchi/bitcoin-node-visualizer
+dependencies:
+  - bitcoin
+repo: https://github.com/AsadoConKimchi/bitcoin-node-visualizer
+support: https://github.com/AsadoConKimchi/bitcoin-node-visualizer/issues
+port: 3000
+gallery: []
+releaseNotes: ""
+submitter: AsadoConKimchi
+submission: ""
+path: ""
+defaultUsername: ""
+defaultPassword: ""
