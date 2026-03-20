@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: bitcoin-node-visualizer_app_1
+      APP_HOST: asadoconkimchi-bitcoin-node-visualizer_app_1
       APP_PORT: 3000
       PROXY_AUTH_ADD: "false"
 
@@ -26,11 +26,11 @@ services:
       NODE_ENV: production
     networks:
       default:
-        ipv4_address: $APP_BITCOIN_NODE_VISUALIZER_IP
+        ipv4_address: $APP_ASADOCONKIMCHI_BITCOIN_NODE_VISUALIZER_IP
       bitcoin_default:
 
 networks:
   default:
-    name: bitcoin-node-visualizer_default
+    name: asadoconkimchi-bitcoin-node-visualizer_default
   bitcoin_default:
     external: true
