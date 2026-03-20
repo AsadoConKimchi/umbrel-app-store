@@ -2,7 +2,7 @@ manifestVersion: 1
 id: asadoconkimchi-bitcoin-node-visualizer
 category: bitcoin
 name: Bitcoin Node Visualizer
-version: "1.0.3"
+version: "1.0.4"
 tagline: Real-time 3D globe visualization of your Bitcoin full node
 description: >-
   Visualize your Bitcoin Core full node activity on an interactive 3D globe.
@@ -20,7 +20,7 @@ repo: https://github.com/AsadoConKimchi/bitcoin-node-visualizer
 support: https://github.com/AsadoConKimchi/bitcoin-node-visualizer/issues
 port: 3000
 gallery: []
-releaseNotes: "Fix peer visibility, mempool floor levitation, empty Merkle tree. Add self-hosted TX/block detail via RPC, floor TX click support."
+releaseNotes: "UI redesign: macOS Dark Mode + Bitfeed aesthetic. Cool slate tones, SF Mono font, segmented controls, neutralized borders. App icon added."
 submitter: AsadoConKimchi
 submission: ""
 path: ""
