@@ -2,7 +2,7 @@ manifestVersion: 1
 id: asadoconkimchi-bitcoin-node-visualizer
 category: bitcoin
 name: Bitcoin Node Visualizer
-version: "1.4.0"
+version: "1.4.1"
 tagline: Real-time 3D globe visualization of your Bitcoin full node
 description: >-
   Visualize your Bitcoin Core full node activity on an interactive 3D globe.
@@ -21,7 +21,7 @@ support: https://github.com/AsadoConKimchi/bitcoin-node-visualizer/issues
 port: 3000
 icon: https://raw.githubusercontent.com/AsadoConKimchi/umbrel-app-store/main/asadoconkimchi-bitcoin-node-visualizer/appicon.png
 gallery: []
-releaseNotes: "v1.4.0 Design system audit: panel overlap fixes (CompactBlock backdrop, SearchBar z-index, drag bounds), z-index layer tokens, font-size tokens, border/blur normalization, focus-visible keyboard accessibility."
+releaseNotes: "v1.4.1 Fix trackpad horizontal scroll on ChainStrip — non-passive wheel handler enables swipe scrolling while blocking browser back/forward navigation."
 submitter: AsadoConKimchi
 submission: ""
 path: ""
